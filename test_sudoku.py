@@ -14,6 +14,6 @@ example = np.array([
                    ]
 )
 
-s = SudokuSolver(example)
+su = SudokuSolver(example)
 
-s.solve_sudoku("options")
+su.solve_sudoku("options")
